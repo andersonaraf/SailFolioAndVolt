@@ -24,3 +24,14 @@ Install Volt:
 ```
 sail art volt:install
 ```
+
+
+let's create a new folio page:
+```
+sail art make:folio todos
+```
+
+***Note:*** This command will create a todos.blade in your resource
+```
+resources/views/pages/todos.blade.php
+```
